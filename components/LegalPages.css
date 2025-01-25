@@ -1,0 +1,32 @@
+.legal-page {
+    padding-bottom: 50px;
+  }
+  
+  .legal-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .legal-page h2 {
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .legal-page p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .legal-page ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  
+  .legal-page li {
+    margin-bottom: 10px;
+  }
+  
+  .legal-page section {
+    margin-bottom: 30px;
+  }
