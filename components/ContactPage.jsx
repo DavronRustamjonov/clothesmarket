@@ -31,20 +31,20 @@ export default function ContactPage() {
 <div  id='contact-info'>
     <h3>Informacion de contacto</h3>
    <div className='contact-h4'>
-   <h4><strong>Telefono:</strong> +012 345 678 102 / +012 345 678 203</h4>
-    <h4><strong>Email:</strong> random@email.com</h4>
-    <h4><strong>Dirección:</strong> Tu direccion, calle, altura 123.</h4>
+   <h4><strong>Telefon:</strong> +998 91 106 38 98 / +998 20 022 77 92</h4>
+    <h4><strong>Email:</strong> polonchiyevpustonchi@gmail.com</h4>
+    <h4><strong>Manzil:</strong> Sizning manzilingiz </h4>
    </div>
 </div>
 
 <div  id='contact-container'>
-      <h3>Contactanos</h3>
+      <h3>Biz bilan bog'lanish</h3>
       <p className="lead">
-    ¿Tienes alguna pregunta o comentario? No dudes en contactar con nosotros.
+    Savollaringiz yoki sharhlaringiz bormi? Biz bilan bog'lanishdan tortinmang.
       </p>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
-          <label htmlFor="name" className="form-label">Nombre</label>
+          <label htmlFor="name" className="form-label">Ism</label>
           <input
             type="text"
             className="form-control"
@@ -56,7 +56,7 @@ export default function ContactPage() {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">Correo electronico</label>
+          <label htmlFor="email" className="form-label"> Correo elektron </label>
           <input
             type="email"
             className="form-control"
@@ -68,7 +68,7 @@ export default function ContactPage() {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="message" className="form-label">Mensaje</label>
+          <label htmlFor="message" className="form-label">Xabar</label>
           <textarea
             className="form-control"
             id="message"
@@ -79,7 +79,7 @@ export default function ContactPage() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">Enviar</button>
+        <button type="submit" className="btn btn-primary">Yuborish</button>
       </form>
     </div>
     </div>
