@@ -26,10 +26,10 @@ export default function ContactPage() {
 
   return (
 <div className='contact'>
-    <h2>Contacto</h2>
+    <h2>Aloqa</h2>
 <div className='contact-container'>
 <div  id='contact-info'>
-    <h3>Informacion de contacto</h3>
+    <h3>Bog'lanish uchun ma'lumot</h3>
    <div className='contact-h4'>
    <h4><strong>Telefon:</strong> +998 91 106 38 98 / +998 20 022 77 92</h4>
     <h4><strong>Email:</strong> polonchiyevpustonchi@gmail.com</h4>
@@ -56,7 +56,7 @@ export default function ContactPage() {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="email" className="form-label"> Correo elektron </label>
+          <label htmlFor="email" className="form-label">Elektron pochta</label>
           <input
             type="email"
             className="form-control"
