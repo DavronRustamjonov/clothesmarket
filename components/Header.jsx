@@ -20,7 +20,7 @@ const {  clearSearch } = useProducts()
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className='header'>
      
-        <Navbar.Brand> <Link className='link-brand' onClick={clearSearch} to={"/"}><IconHanger></IconHanger>LaptopUZ</Link></Navbar.Brand>
+        <Navbar.Brand> <Link className='link-brand' onClick={clearSearch} to={"/"}><IconHanger></IconHanger>ClothesMarket</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           
